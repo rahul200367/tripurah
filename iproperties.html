@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/07fe2057a1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class=" shadow-sm mb-1 bg-white rounded sticky-top">
+    <nav class="navbar navbar-expand-lg mx-5 navm navc">
+      <a class="navbar-brand mx-5" href="#"><img src="./images/image 2.png" alt="logo"
+          style="width:150px; height:60px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse  justify-content-around" id="navbarSupportedContent">
+        <div class="d-flex justify-content-between navmt">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link textc" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textc" href="./iproperties.html">Properties</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textc" href="#">Promoters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textc dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Find a Talent
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textc" href="#">Suppliers</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mr-auto forse">
+            <li class="nav-item">
+              <a class="nav-link ForE" href="#">For Enquiry</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ForS" href="#">Sign Up</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+<div class="shadow-sm  bg-white proph">
+    <div class="navc d-flex justify-content-between align-items-center">
+<div class="properties"><h3>Properties</h3></div>
+<div class="inputs">
+ <div class="input">
+  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+    <path d="M7.83333 12.6667C10.7789 12.6667 13.1667 10.2789 13.1667 7.33333C13.1667 4.38781 10.7789 2 7.83333 2C4.88781 2 2.5 4.38781 2.5 7.33333C2.5 10.2789 4.88781 12.6667 7.83333 12.6667Z" stroke="#1E2B4C" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14.5 14L11.6333 11.1333" stroke="#1E2B4C" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg> <input type="text" name="serach" id="search" placeholder="Search Your Property Here.."/>
+ </div>
+ <div class="search">
+   <button class="searchb">Serach</button>
+ </div>
+</div>
+    </div>
+   </div>
+   <div class="d-flex align-items-baseline">
+    <div class="sidebar container d-flex justify-content-center flex-column align-items-center">
+      <h3>Filters</h3>
+      <div class="d-flex justify-content-center align-items-baseline flex-column m-1">
+        <p>Property Type</p>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"  checked>
+          <label class="form-check-label" for="flexCheckDefault">
+            All
+          </label>
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+          <label class="form-check-label" for="flexCheckChecked">
+            Agriculture Land
+          </label>
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Residental Land
+          </label>
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+          <label class="form-check-label" for="flexCheckChecked">
+            Individual Houses
+          </label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Apartments
+            </label>
+          </div>
+         <p>BHK Type</p>
+         <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            1 BHK
+          </label>
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+          <label class="form-check-label" for="flexCheckChecked">
+           2 BHK
+          </label>
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+           3 BHK
+          </label>
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+          <label class="form-check-label" for="flexCheckChecked">
+           3+ BHK
+          </label>
+        </div>
+        <p>Promoters</p>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Casagrand
+          </label>
+        </div>
+        <div class="form-check m-1">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+          <label class="form-check-label" for="flexCheckChecked">
+            GSquare
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="vr shadow-sm"></div>
+    <div class="container">
+      <div class="d-flex justify-content-center flex-column align-items-center">
+        <div class="propcomp d-flex justify-content-around shadow">
+          <div class="comp1"> 
+            <img src="https://s3-alpha-sig.figma.com/img/7081/f0d8/cacde4911ab7ca8ba3ffd7e278f6d13a?Expires=1699228800&Signature=HQ4QMOCBZwrWjpQ1ftulmFsoGwvq1mhne6f0wdQ6VLUtwMnNvOsBURWEULCgDnCX7hIl46Gl-7N4mYki5Nc3hBJzf67oeaYYviP-AuGb6NA0Psl6DrpeY9u8H1ZsOZMarbBxFe4461IZ1NE9e6Zf-uANoXLuy4II9Syi10cCHXnVC9WvcQ4NZt2qrcLJ8UqM3jZN4qUOtnM4567MD183krtPxpJAcQTPgMOR4UdZDxUFZpNs4l8sZhmBwikBqajKq9rld-gYd1fG8yph4J4pDdBCT5Bahzl~gnw72e3mPNJliZWj~nFQnr8wLnwNXcspiU46OkEdQujtOV54jI8APQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="img1">
+          </div>
+          <div class="comp2 m-4">
+            <div class="d-flex justify-content-between align-items-baseline">
+              <div>
+                <div class="comp21"> &#x20B9; 5.5L to 7.5L</div>
+                <div class="comp22">Casagrand Meridian</div>
+                <div class="comp23">By Casagrand Builders Private Limited</div>
+                <div class="comp24"><span class="span21">2,3</span>BHK Flats For Sale in Tirupur </div>
+              </div>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5001 2.25C16.0246 2.24984 15.5548 2.35402 15.124 2.55519C14.6932 2.75636 14.3117 3.04962 14.0065 3.41428C13.7014 3.77894 13.48 4.20611 13.3579 4.66567C13.2358 5.12523 13.2161 5.60598 13.3001 6.074L8.57007 9.386C8.54642 9.40236 8.52371 9.42006 8.50207 9.439C8.02221 9.06388 7.44659 8.83116 6.84085 8.76737C6.23512 8.70358 5.62365 8.8113 5.07617 9.07823C4.5287 9.34516 4.06725 9.76057 3.74445 10.2771C3.42165 10.7936 3.25049 11.3904 3.25049 11.9995C3.25049 12.6086 3.42165 13.2054 3.74445 13.7219C4.06725 14.2384 4.5287 14.6538 5.07617 14.9208C5.62365 15.1877 6.23512 15.2954 6.84085 15.2316C7.44659 15.1678 8.02221 14.9351 8.50207 14.56C8.52368 14.5793 8.54639 14.5973 8.57007 14.614L13.3001 17.926C13.1597 18.7088 13.3111 19.5158 13.7258 20.1944C14.1404 20.873 14.7895 21.376 15.5501 21.6082C16.3106 21.8404 17.13 21.7857 17.8529 21.4544C18.5759 21.1231 19.1523 20.5382 19.473 19.8105C19.7937 19.0828 19.8365 18.2628 19.5932 17.5057C19.3499 16.7485 18.8375 16.1069 18.1529 15.7022C17.4684 15.2975 16.6592 15.1578 15.8785 15.3096C15.0979 15.4615 14.4001 15.8942 13.9171 16.526L9.43807 13.391C9.63807 12.969 9.75007 12.498 9.75007 12C9.75007 11.502 9.63807 11.03 9.43807 10.609L13.9181 7.473C14.2537 7.91227 14.6957 8.25868 15.2025 8.47948C15.7093 8.70028 16.264 8.78817 16.8142 8.73484C17.3644 8.68151 17.8919 8.48872 18.3469 8.1747C18.8018 7.86068 19.1691 7.43581 19.4141 6.94026C19.6591 6.44472 19.7736 5.89488 19.7469 5.34274C19.7201 4.7906 19.553 4.25441 19.2612 3.78487C18.9695 3.31532 18.5629 2.92795 18.0797 2.65937C17.5965 2.3908 17.0529 2.2499 16.5001 2.25ZM14.7501 5.5C14.7501 5.03587 14.9344 4.59075 15.2626 4.26256C15.5908 3.93437 16.0359 3.75 16.5001 3.75C16.9642 3.75 17.4093 3.93437 17.7375 4.26256C18.0657 4.59075 18.2501 5.03587 18.2501 5.5C18.2501 5.96413 18.0657 6.40925 17.7375 6.73744C17.4093 7.06563 16.9642 7.25 16.5001 7.25C16.0359 7.25 15.5908 7.06563 15.2626 6.73744C14.9344 6.40925 14.7501 5.96413 14.7501 5.5ZM6.50007 10.25C6.03594 10.25 5.59082 10.4344 5.26264 10.7626C4.93445 11.0908 4.75007 11.5359 4.75007 12C4.75007 12.4641 4.93445 12.9092 5.26264 13.2374C5.59082 13.5656 6.03594 13.75 6.50007 13.75C6.9642 13.75 7.40932 13.5656 7.73751 13.2374C8.0657 12.9092 8.25007 12.4641 8.25007 12C8.25007 11.5359 8.0657 11.0908 7.73751 10.7626C7.40932 10.4344 6.9642 10.25 6.50007 10.25ZM16.5001 16.75C16.0359 16.75 15.5908 16.9344 15.2626 17.2626C14.9344 17.5908 14.7501 18.0359 14.7501 18.5C14.7501 18.9641 14.9344 19.4092 15.2626 19.7374C15.5908 20.0656 16.0359 20.25 16.5001 20.25C16.9642 20.25 17.4093 20.0656 17.7375 19.7374C18.0657 19.4092 18.2501 18.9641 18.2501 18.5C18.2501 18.0359 18.0657 17.5908 17.7375 17.2626C17.4093 16.9344 16.9642 16.75 16.5001 16.75Z" fill="#777777"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M18 12C19.49 10.54 21 8.79 21 6.5C21 5.04131 20.4205 3.64236 19.3891 2.61091C18.3576 1.57946 16.9587 1 15.5 1C13.74 1 12.5 1.5 11 3C9.5 1.5 8.26 1 6.5 1C5.04131 1 3.64236 1.57946 2.61091 2.61091C1.57946 3.64236 1 5.04131 1 6.5C1 8.8 2.5 10.55 4 12L11 19L18 12Z" stroke="#5BA600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>     
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center boxp mt-5 mb-4">
+              <div>
+                <div class="comp24">Possession Date</div>
+                <div class="span21">May, 2023</div>
+              </div>
+              <div class="vr"></div>
+              <div>
+                <div class="comp24">Build Up Area</div>
+                <div class="span21">1302 Sq.Ft</div>
+              </div>
+              <div class="vr"></div>
+              <div>
+                <div class="comp24">Sizes</div>
+                <div class="span21">1302 Sq.Ft-045</div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="span21">Casagrand Builders Private Limited</div>
+              <div class="search"><button class="searchb">Contact</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="propcomp d-flex justify-content-around shadow">
+          <div class="comp1"> 
+            <img src="https://s3-alpha-sig.figma.com/img/c6b3/e29b/972609b14efdb4fc7115fb11763cda0b?Expires=1699228800&Signature=WEDnA0zkF51wEg~vAIFXzaeIDGNPtqvJo1fT8H6XCmXDF7XZivhYoOwZjcpkbe5T2T0Jw1nAwsYil1F9ZH7S~RrHRXtBbPE0qwjJY5Y3DjhONCdJH6mhFinoa46e2rjqrTuKziSaVbwmfSybbgEjlv87qRPaDOJSwloqn4gbty-wUNa~DbFGXWVSz9zk8LVEc-rJV-naHXr5mq2Ca4fE75yjyVtrz6cZZbwtmV095bbGyj1QXBDu1B7ww0sDs2AqnhHuqlDAyycXlT0GXdLfEbRUZTUFWNd6Sd2ojQq~BbzCW1Rs7BDQK5eNM4VRcFe1hOnqH68JZXMp328KXEJooA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="img1">
+          </div>
+          <div class="comp2 m-4">
+            <div class="d-flex justify-content-between align-items-baseline">
+              <div>
+                <div class="comp21"> &#x20B9; 5.5L to 7.5L</div>
+                <div class="comp22">Ajay Nagar</div>
+                <div class="comp23">By SR Builders</div>
+                <div class="comp24"><span class="span21">Resientail Lands</span> For Sale in Tirupur </div>
+              </div>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5001 2.25C16.0246 2.24984 15.5548 2.35402 15.124 2.55519C14.6932 2.75636 14.3117 3.04962 14.0065 3.41428C13.7014 3.77894 13.48 4.20611 13.3579 4.66567C13.2358 5.12523 13.2161 5.60598 13.3001 6.074L8.57007 9.386C8.54642 9.40236 8.52371 9.42006 8.50207 9.439C8.02221 9.06388 7.44659 8.83116 6.84085 8.76737C6.23512 8.70358 5.62365 8.8113 5.07617 9.07823C4.5287 9.34516 4.06725 9.76057 3.74445 10.2771C3.42165 10.7936 3.25049 11.3904 3.25049 11.9995C3.25049 12.6086 3.42165 13.2054 3.74445 13.7219C4.06725 14.2384 4.5287 14.6538 5.07617 14.9208C5.62365 15.1877 6.23512 15.2954 6.84085 15.2316C7.44659 15.1678 8.02221 14.9351 8.50207 14.56C8.52368 14.5793 8.54639 14.5973 8.57007 14.614L13.3001 17.926C13.1597 18.7088 13.3111 19.5158 13.7258 20.1944C14.1404 20.873 14.7895 21.376 15.5501 21.6082C16.3106 21.8404 17.13 21.7857 17.8529 21.4544C18.5759 21.1231 19.1523 20.5382 19.473 19.8105C19.7937 19.0828 19.8365 18.2628 19.5932 17.5057C19.3499 16.7485 18.8375 16.1069 18.1529 15.7022C17.4684 15.2975 16.6592 15.1578 15.8785 15.3096C15.0979 15.4615 14.4001 15.8942 13.9171 16.526L9.43807 13.391C9.63807 12.969 9.75007 12.498 9.75007 12C9.75007 11.502 9.63807 11.03 9.43807 10.609L13.9181 7.473C14.2537 7.91227 14.6957 8.25868 15.2025 8.47948C15.7093 8.70028 16.264 8.78817 16.8142 8.73484C17.3644 8.68151 17.8919 8.48872 18.3469 8.1747C18.8018 7.86068 19.1691 7.43581 19.4141 6.94026C19.6591 6.44472 19.7736 5.89488 19.7469 5.34274C19.7201 4.7906 19.553 4.25441 19.2612 3.78487C18.9695 3.31532 18.5629 2.92795 18.0797 2.65937C17.5965 2.3908 17.0529 2.2499 16.5001 2.25ZM14.7501 5.5C14.7501 5.03587 14.9344 4.59075 15.2626 4.26256C15.5908 3.93437 16.0359 3.75 16.5001 3.75C16.9642 3.75 17.4093 3.93437 17.7375 4.26256C18.0657 4.59075 18.2501 5.03587 18.2501 5.5C18.2501 5.96413 18.0657 6.40925 17.7375 6.73744C17.4093 7.06563 16.9642 7.25 16.5001 7.25C16.0359 7.25 15.5908 7.06563 15.2626 6.73744C14.9344 6.40925 14.7501 5.96413 14.7501 5.5ZM6.50007 10.25C6.03594 10.25 5.59082 10.4344 5.26264 10.7626C4.93445 11.0908 4.75007 11.5359 4.75007 12C4.75007 12.4641 4.93445 12.9092 5.26264 13.2374C5.59082 13.5656 6.03594 13.75 6.50007 13.75C6.9642 13.75 7.40932 13.5656 7.73751 13.2374C8.0657 12.9092 8.25007 12.4641 8.25007 12C8.25007 11.5359 8.0657 11.0908 7.73751 10.7626C7.40932 10.4344 6.9642 10.25 6.50007 10.25ZM16.5001 16.75C16.0359 16.75 15.5908 16.9344 15.2626 17.2626C14.9344 17.5908 14.7501 18.0359 14.7501 18.5C14.7501 18.9641 14.9344 19.4092 15.2626 19.7374C15.5908 20.0656 16.0359 20.25 16.5001 20.25C16.9642 20.25 17.4093 20.0656 17.7375 19.7374C18.0657 19.4092 18.2501 18.9641 18.2501 18.5C18.2501 18.0359 18.0657 17.5908 17.7375 17.2626C17.4093 16.9344 16.9642 16.75 16.5001 16.75Z" fill="#777777"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M18 12C19.49 10.54 21 8.79 21 6.5C21 5.04131 20.4205 3.64236 19.3891 2.61091C18.3576 1.57946 16.9587 1 15.5 1C13.74 1 12.5 1.5 11 3C9.5 1.5 8.26 1 6.5 1C5.04131 1 3.64236 1.57946 2.61091 2.61091C1.57946 3.64236 1 5.04131 1 6.5C1 8.8 2.5 10.55 4 12L11 19L18 12Z" stroke="#5BA600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>     
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center boxp mt-5 mb-4">
+              <div>
+                <div class="comp24">Possession Date</div>
+                <div class="span21">May, 2023</div>
+              </div>
+              <div class="vr"></div>
+              <div>
+                <div class="comp24">Build Up Area</div>
+                <div class="span21">1302 Sq.Ft</div>
+              </div>
+              <div class="vr"></div>
+              <div>
+                <div class="comp24">Sizes</div>
+                <div class="span21">1302 Sq.Ft-045</div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="span21">AS Avenue</div>
+              <div class="search"><button class="searchb">Contact</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="propcomp d-flex justify-content-around shadow">
+          <div class="comp1"> 
+            <img src="https://s3-alpha-sig.figma.com/img/753d/4ca6/f780815417625c9f6f7c4874600eb9bb?Expires=1699228800&Signature=mMqlA6F7-XczE2UtjMxxEZquvVkJGgtEjCH8ciVxycKX8nVeDuZ3zIxF3jaRMPuPTNrY5kY-2poyAyIjwuMtVSAesegUvjcGdyLQX31dgkoMRgMY~1kLh-UqhY2GnBYIlvtc5yn2qMdwd8JJwejxgpLYaqDzJvcEd6evj43x1G8X1QM3ckN6~04ZDiYxLRiPZNDz5PASU31v-Z6EAxXNib2tl9NE0QjbXX0fmrabXIUHEwh3nJ8CCgSQYx5dQ35AorZyMBp9e6KpOxOrZNPiP~0IUj98cW83wGgU8DFY78qroZwJSIIo5MPNiciiOfyMApI-RprV58nRE60Txz~NUw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="img1">
+          </div>
+          <div class="comp2 m-4">
+            <div class="d-flex justify-content-between align-items-baseline">
+              <div>
+                <div class="comp21"> &#x20B9; 5.5L to 7.5L</div>
+                <div class="comp22">Luxury Villa</div>
+                <div class="comp23">By AS Avenue</div>
+                <div class="comp24"><span class="span21">2,3</span>BHK Flats For Sale in Tirupur </div>
+              </div>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5001 2.25C16.0246 2.24984 15.5548 2.35402 15.124 2.55519C14.6932 2.75636 14.3117 3.04962 14.0065 3.41428C13.7014 3.77894 13.48 4.20611 13.3579 4.66567C13.2358 5.12523 13.2161 5.60598 13.3001 6.074L8.57007 9.386C8.54642 9.40236 8.52371 9.42006 8.50207 9.439C8.02221 9.06388 7.44659 8.83116 6.84085 8.76737C6.23512 8.70358 5.62365 8.8113 5.07617 9.07823C4.5287 9.34516 4.06725 9.76057 3.74445 10.2771C3.42165 10.7936 3.25049 11.3904 3.25049 11.9995C3.25049 12.6086 3.42165 13.2054 3.74445 13.7219C4.06725 14.2384 4.5287 14.6538 5.07617 14.9208C5.62365 15.1877 6.23512 15.2954 6.84085 15.2316C7.44659 15.1678 8.02221 14.9351 8.50207 14.56C8.52368 14.5793 8.54639 14.5973 8.57007 14.614L13.3001 17.926C13.1597 18.7088 13.3111 19.5158 13.7258 20.1944C14.1404 20.873 14.7895 21.376 15.5501 21.6082C16.3106 21.8404 17.13 21.7857 17.8529 21.4544C18.5759 21.1231 19.1523 20.5382 19.473 19.8105C19.7937 19.0828 19.8365 18.2628 19.5932 17.5057C19.3499 16.7485 18.8375 16.1069 18.1529 15.7022C17.4684 15.2975 16.6592 15.1578 15.8785 15.3096C15.0979 15.4615 14.4001 15.8942 13.9171 16.526L9.43807 13.391C9.63807 12.969 9.75007 12.498 9.75007 12C9.75007 11.502 9.63807 11.03 9.43807 10.609L13.9181 7.473C14.2537 7.91227 14.6957 8.25868 15.2025 8.47948C15.7093 8.70028 16.264 8.78817 16.8142 8.73484C17.3644 8.68151 17.8919 8.48872 18.3469 8.1747C18.8018 7.86068 19.1691 7.43581 19.4141 6.94026C19.6591 6.44472 19.7736 5.89488 19.7469 5.34274C19.7201 4.7906 19.553 4.25441 19.2612 3.78487C18.9695 3.31532 18.5629 2.92795 18.0797 2.65937C17.5965 2.3908 17.0529 2.2499 16.5001 2.25ZM14.7501 5.5C14.7501 5.03587 14.9344 4.59075 15.2626 4.26256C15.5908 3.93437 16.0359 3.75 16.5001 3.75C16.9642 3.75 17.4093 3.93437 17.7375 4.26256C18.0657 4.59075 18.2501 5.03587 18.2501 5.5C18.2501 5.96413 18.0657 6.40925 17.7375 6.73744C17.4093 7.06563 16.9642 7.25 16.5001 7.25C16.0359 7.25 15.5908 7.06563 15.2626 6.73744C14.9344 6.40925 14.7501 5.96413 14.7501 5.5ZM6.50007 10.25C6.03594 10.25 5.59082 10.4344 5.26264 10.7626C4.93445 11.0908 4.75007 11.5359 4.75007 12C4.75007 12.4641 4.93445 12.9092 5.26264 13.2374C5.59082 13.5656 6.03594 13.75 6.50007 13.75C6.9642 13.75 7.40932 13.5656 7.73751 13.2374C8.0657 12.9092 8.25007 12.4641 8.25007 12C8.25007 11.5359 8.0657 11.0908 7.73751 10.7626C7.40932 10.4344 6.9642 10.25 6.50007 10.25ZM16.5001 16.75C16.0359 16.75 15.5908 16.9344 15.2626 17.2626C14.9344 17.5908 14.7501 18.0359 14.7501 18.5C14.7501 18.9641 14.9344 19.4092 15.2626 19.7374C15.5908 20.0656 16.0359 20.25 16.5001 20.25C16.9642 20.25 17.4093 20.0656 17.7375 19.7374C18.0657 19.4092 18.2501 18.9641 18.2501 18.5C18.2501 18.0359 18.0657 17.5908 17.7375 17.2626C17.4093 16.9344 16.9642 16.75 16.5001 16.75Z" fill="#777777"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M18 12C19.49 10.54 21 8.79 21 6.5C21 5.04131 20.4205 3.64236 19.3891 2.61091C18.3576 1.57946 16.9587 1 15.5 1C13.74 1 12.5 1.5 11 3C9.5 1.5 8.26 1 6.5 1C5.04131 1 3.64236 1.57946 2.61091 2.61091C1.57946 3.64236 1 5.04131 1 6.5C1 8.8 2.5 10.55 4 12L11 19L18 12Z" stroke="#5BA600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>     
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center boxp mt-5 mb-4">
+              <div>
+                <div class="comp24">Possession Date</div>
+                <div class="span21">May, 2023</div>
+              </div>
+              <div class="vr"></div>
+              <div>
+                <div class="comp24">Build Up Area</div>
+                <div class="span21">1302 Sq.Ft</div>
+              </div>
+              <div class="vr"></div>
+              <div>
+                <div class="comp24">Sizes</div>
+                <div class="span21">1302 Sq.Ft-045</div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="span21">AS Avenue</div>
+              <div class="search"><button class="searchb">Contact</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="propcomp d-flex justify-content-around shadow">
+          <div class="comp1"> 
+            <img src="https://s3-alpha-sig.figma.com/img/ffa0/93a6/1e17df5a1438aebad837c0d281da15eb?Expires=1699228800&Signature=Fm5K-G6qHvQvrSRct-YBYtYzb3CQyYJdCpdaOxh7XS48Z~Gi~Ow205nxDEBujPq1s0AilXYgT2iNZV4E30h4rh83W6Cf4xa4WnGqHpLNWpBe9lnUo4R1ewimLZWiC9RbQMFXpUzQddLPHx5vMi22mtdeIIJjNWbZvcNmn8vrIazfkwltHnfJKoQZED9fSIoZc9jKfzT-vqK7it7RktmWWDEPVREGLYkkk5p-TX2My0kf9FtRFJ6xmC3jkNrSQRvKO0gfK4ZKoVZ0clSZYFv5rckI6HB1V7E6TmBTUA6U6~9AS3R9yWaF1Ajo1pkn8DgrmE3dwFlmDyvYhsFYFYjjGA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="img1">
+          </div>
+          <div class="comp2 m-4">
+            <div class="d-flex justify-content-between align-items-baseline">
+              <div>
+                <div class="comp21"> &#x20B9; 5.5L to 7.5L</div>
+                <div class="comp22">Agriculture Land</div>
+                <div class="comp23">By unknow sellerr</div>
+              </div>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5001 2.25C16.0246 2.24984 15.5548 2.35402 15.124 2.55519C14.6932 2.75636 14.3117 3.04962 14.0065 3.41428C13.7014 3.77894 13.48 4.20611 13.3579 4.66567C13.2358 5.12523 13.2161 5.60598 13.3001 6.074L8.57007 9.386C8.54642 9.40236 8.52371 9.42006 8.50207 9.439C8.02221 9.06388 7.44659 8.83116 6.84085 8.76737C6.23512 8.70358 5.62365 8.8113 5.07617 9.07823C4.5287 9.34516 4.06725 9.76057 3.74445 10.2771C3.42165 10.7936 3.25049 11.3904 3.25049 11.9995C3.25049 12.6086 3.42165 13.2054 3.74445 13.7219C4.06725 14.2384 4.5287 14.6538 5.07617 14.9208C5.62365 15.1877 6.23512 15.2954 6.84085 15.2316C7.44659 15.1678 8.02221 14.9351 8.50207 14.56C8.52368 14.5793 8.54639 14.5973 8.57007 14.614L13.3001 17.926C13.1597 18.7088 13.3111 19.5158 13.7258 20.1944C14.1404 20.873 14.7895 21.376 15.5501 21.6082C16.3106 21.8404 17.13 21.7857 17.8529 21.4544C18.5759 21.1231 19.1523 20.5382 19.473 19.8105C19.7937 19.0828 19.8365 18.2628 19.5932 17.5057C19.3499 16.7485 18.8375 16.1069 18.1529 15.7022C17.4684 15.2975 16.6592 15.1578 15.8785 15.3096C15.0979 15.4615 14.4001 15.8942 13.9171 16.526L9.43807 13.391C9.63807 12.969 9.75007 12.498 9.75007 12C9.75007 11.502 9.63807 11.03 9.43807 10.609L13.9181 7.473C14.2537 7.91227 14.6957 8.25868 15.2025 8.47948C15.7093 8.70028 16.264 8.78817 16.8142 8.73484C17.3644 8.68151 17.8919 8.48872 18.3469 8.1747C18.8018 7.86068 19.1691 7.43581 19.4141 6.94026C19.6591 6.44472 19.7736 5.89488 19.7469 5.34274C19.7201 4.7906 19.553 4.25441 19.2612 3.78487C18.9695 3.31532 18.5629 2.92795 18.0797 2.65937C17.5965 2.3908 17.0529 2.2499 16.5001 2.25ZM14.7501 5.5C14.7501 5.03587 14.9344 4.59075 15.2626 4.26256C15.5908 3.93437 16.0359 3.75 16.5001 3.75C16.9642 3.75 17.4093 3.93437 17.7375 4.26256C18.0657 4.59075 18.2501 5.03587 18.2501 5.5C18.2501 5.96413 18.0657 6.40925 17.7375 6.73744C17.4093 7.06563 16.9642 7.25 16.5001 7.25C16.0359 7.25 15.5908 7.06563 15.2626 6.73744C14.9344 6.40925 14.7501 5.96413 14.7501 5.5ZM6.50007 10.25C6.03594 10.25 5.59082 10.4344 5.26264 10.7626C4.93445 11.0908 4.75007 11.5359 4.75007 12C4.75007 12.4641 4.93445 12.9092 5.26264 13.2374C5.59082 13.5656 6.03594 13.75 6.50007 13.75C6.9642 13.75 7.40932 13.5656 7.73751 13.2374C8.0657 12.9092 8.25007 12.4641 8.25007 12C8.25007 11.5359 8.0657 11.0908 7.73751 10.7626C7.40932 10.4344 6.9642 10.25 6.50007 10.25ZM16.5001 16.75C16.0359 16.75 15.5908 16.9344 15.2626 17.2626C14.9344 17.5908 14.7501 18.0359 14.7501 18.5C14.7501 18.9641 14.9344 19.4092 15.2626 19.7374C15.5908 20.0656 16.0359 20.25 16.5001 20.25C16.9642 20.25 17.4093 20.0656 17.7375 19.7374C18.0657 19.4092 18.2501 18.9641 18.2501 18.5C18.2501 18.0359 18.0657 17.5908 17.7375 17.2626C17.4093 16.9344 16.9642 16.75 16.5001 16.75Z" fill="#777777"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M18 12C19.49 10.54 21 8.79 21 6.5C21 5.04131 20.4205 3.64236 19.3891 2.61091C18.3576 1.57946 16.9587 1 15.5 1C13.74 1 12.5 1.5 11 3C9.5 1.5 8.26 1 6.5 1C5.04131 1 3.64236 1.57946 2.61091 2.61091C1.57946 3.64236 1 5.04131 1 6.5C1 8.8 2.5 10.55 4 12L11 19L18 12Z" stroke="#5BA600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>     
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center boxp mt-5 mb-4">
+              <div>
+                <div class="comp24">Possession Date</div>
+                <div class="span21">May, 2023</div>
+              </div>
+              <div class="vr"></div>
+              <div>
+                <div class="comp24">Build Up Area</div>
+                <div class="span21">1302 Sq.Ft</div>
+              </div>
+              <div class="vr"></div>
+              <div>
+                <div class="comp24">Sizes</div>
+                <div class="span21">1302 Sq.Ft-045</div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="span21">By Unknown</div>
+              <div class="search"><button class="searchb">Contact</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="propcomp d-flex justify-content-around shadow">
+          <div class="comp1"> 
+            <img src="https://s3-alpha-sig.figma.com/img/7081/f0d8/cacde4911ab7ca8ba3ffd7e278f6d13a?Expires=1699228800&Signature=HQ4QMOCBZwrWjpQ1ftulmFsoGwvq1mhne6f0wdQ6VLUtwMnNvOsBURWEULCgDnCX7hIl46Gl-7N4mYki5Nc3hBJzf67oeaYYviP-AuGb6NA0Psl6DrpeY9u8H1ZsOZMarbBxFe4461IZ1NE9e6Zf-uANoXLuy4II9Syi10cCHXnVC9WvcQ4NZt2qrcLJ8UqM3jZN4qUOtnM4567MD183krtPxpJAcQTPgMOR4UdZDxUFZpNs4l8sZhmBwikBqajKq9rld-gYd1fG8yph4J4pDdBCT5Bahzl~gnw72e3mPNJliZWj~nFQnr8wLnwNXcspiU46OkEdQujtOV54jI8APQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="img1">
+          </div>
+          <div class="comp2 m-4">
+            <div class="d-flex justify-content-between align-items-baseline">
+              <div>
+                <div class="comp21"> &#x20B9; 5.5L to 7.5L</div>
+                <div class="comp22">Casagrand Meridian</div>
+                <div class="comp23">By Casagrand Builders Private Limited</div>
+                <div class="comp24"><span class="span21">2,3</span>BHK Flats For Sale in Tirupur </div>
+              </div>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5001 2.25C16.0246 2.24984 15.5548 2.35402 15.124 2.55519C14.6932 2.75636 14.3117 3.04962 14.0065 3.41428C13.7014 3.77894 13.48 4.20611 13.3579 4.66567C13.2358 5.12523 13.2161 5.60598 13.3001 6.074L8.57007 9.386C8.54642 9.40236 8.52371 9.42006 8.50207 9.439C8.02221 9.06388 7.44659 8.83116 6.84085 8.76737C6.23512 8.70358 5.62365 8.8113 5.07617 9.07823C4.5287 9.34516 4.06725 9.76057 3.74445 10.2771C3.42165 10.7936 3.25049 11.3904 3.25049 11.9995C3.25049 12.6086 3.42165 13.2054 3.74445 13.7219C4.06725 14.2384 4.5287 14.6538 5.07617 14.9208C5.62365 15.1877 6.23512 15.2954 6.84085 15.2316C7.44659 15.1678 8.02221 14.9351 8.50207 14.56C8.52368 14.5793 8.54639 14.5973 8.57007 14.614L13.3001 17.926C13.1597 18.7088 13.3111 19.5158 13.7258 20.1944C14.1404 20.873 14.7895 21.376 15.5501 21.6082C16.3106 21.8404 17.13 21.7857 17.8529 21.4544C18.5759 21.1231 19.1523 20.5382 19.473 19.8105C19.7937 19.0828 19.8365 18.2628 19.5932 17.5057C19.3499 16.7485 18.8375 16.1069 18.1529 15.7022C17.4684 15.2975 16.6592 15.1578 15.8785 15.3096C15.0979 15.4615 14.4001 15.8942 13.9171 16.526L9.43807 13.391C9.63807 12.969 9.75007 12.498 9.75007 12C9.75007 11.502 9.63807 11.03 9.43807 10.609L13.9181 7.473C14.2537 7.91227 14.6957 8.25868 15.2025 8.47948C15.7093 8.70028 16.264 8.78817 16.8142 8.73484C17.3644 8.68151 17.8919 8.48872 18.3469 8.1747C18.8018 7.86068 19.1691 7.43581 19.4141 6.94026C19.6591 6.44472 19.7736 5.89488 19.7469 5.34274C19.7201 4.7906 19.553 4.25441 19.2612 3.78487C18.9695 3.31532 18.5629 2.92795 18.0797 2.65937C17.5965 2.3908 17.0529 2.2499 16.5001 2.25ZM14.7501 5.5C14.7501 5.03587 14.9344 4.59075 15.2626 4.26256C15.5908 3.93437 16.0359 3.75 16.5001 3.75C16.9642 3.75 17.4093 3.93437 17.7375 4.26256C18.0657 4.59075 18.2501 5.03587 18.2501 5.5C18.2501 5.96413 18.0657 6.40925 17.7375 6.73744C17.4093 7.06563 16.9642 7.25 16.5001 7.25C16.0359 7.25 15.5908 7.06563 15.2626 6.73744C14.9344 6.40925 14.7501 5.96413 14.7501 5.5ZM6.50007 10.25C6.03594 10.25 5.59082 10.4344 5.26264 10.7626C4.93445 11.0908 4.75007 11.5359 4.75007 12C4.75007 12.4641 4.93445 12.9092 5.26264 13.2374C5.59082 13.5656 6.03594 13.75 6.50007 13.75C6.9642 13.75 7.40932 13.5656 7.73751 13.2374C8.0657 12.9092 8.25007 12.4641 8.25007 12C8.25007 11.5359 8.0657 11.0908 7.73751 10.7626C7.40932 10.4344 6.9642 10.25 6.50007 10.25ZM16.5001 16.75C16.0359 16.75 15.5908 16.9344 15.2626 17.2626C14.9344 17.5908 14.7501 18.0359 14.7501 18.5C14.7501 18.9641 14.9344 19.4092 15.2626 19.7374C15.5908 20.0656 16.0359 20.25 16.5001 20.25C16.9642 20.25 17.4093 20.0656 17.7375 19.7374C18.0657 19.4092 18.2501 18.9641 18.2501 18.5C18.2501 18.0359 18.0657 17.5908 17.7375 17.2626C17.4093 16.9344 16.9642 16.75 16.5001 16.75Z" fill="#777777"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M18 12C19.49 10.54 21 8.79 21 6.5C21 5.04131 20.4205 3.64236 19.3891 2.61091C18.3576 1.57946 16.9587 1 15.5 1C13.74 1 12.5 1.5 11 3C9.5 1.5 8.26 1 6.5 1C5.04131 1 3.64236 1.57946 2.61091 2.61091C1.57946 3.64236 1 5.04131 1 6.5C1 8.8 2.5 10.55 4 12L11 19L18 12Z" stroke="#5BA600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>     
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center boxp mt-5 mb-4">
+              <div>
+                <div class="comp24">Possession Date</div>
+                <div class="span21">May, 2023</div>
+              </div>
+              <div class="vr"></div>
+              <div>
+                <div class="comp24">Build Up Area</div>
+                <div class="span21">1302 Sq.Ft</div>
+              </div>
+              <div class="vr"></div>
+              <div>
+                <div class="comp24">Sizes</div>
+                <div class="span21">1302 Sq.Ft-045</div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="span21">Casagrand Builders Private Limited</div>
+              <div class="search"><button class="searchb">Contact</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="propcomp d-flex justify-content-around shadow">
+          <div class="comp1"> 
+            <img src="https://s3-alpha-sig.figma.com/img/7081/f0d8/cacde4911ab7ca8ba3ffd7e278f6d13a?Expires=1699228800&Signature=HQ4QMOCBZwrWjpQ1ftulmFsoGwvq1mhne6f0wdQ6VLUtwMnNvOsBURWEULCgDnCX7hIl46Gl-7N4mYki5Nc3hBJzf67oeaYYviP-AuGb6NA0Psl6DrpeY9u8H1ZsOZMarbBxFe4461IZ1NE9e6Zf-uANoXLuy4II9Syi10cCHXnVC9WvcQ4NZt2qrcLJ8UqM3jZN4qUOtnM4567MD183krtPxpJAcQTPgMOR4UdZDxUFZpNs4l8sZhmBwikBqajKq9rld-gYd1fG8yph4J4pDdBCT5Bahzl~gnw72e3mPNJliZWj~nFQnr8wLnwNXcspiU46OkEdQujtOV54jI8APQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="img1">
+          </div>
+          <div class="comp2 m-4">
+            <div class="d-flex justify-content-between align-items-baseline">
+              <div>
+                <div class="comp21"> &#x20B9; 5.5L to 7.5L</div>
+                <div class="comp22">GSquare Residency</div>
+                <div class="comp23">By GSquare Residency Private Limited</div>
+                <div class="comp24"><span class="span21">2,3</span>BHK Flats For Sale in Tirupur </div>
+              </div>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5001 2.25C16.0246 2.24984 15.5548 2.35402 15.124 2.55519C14.6932 2.75636 14.3117 3.04962 14.0065 3.41428C13.7014 3.77894 13.48 4.20611 13.3579 4.66567C13.2358 5.12523 13.2161 5.60598 13.3001 6.074L8.57007 9.386C8.54642 9.40236 8.52371 9.42006 8.50207 9.439C8.02221 9.06388 7.44659 8.83116 6.84085 8.76737C6.23512 8.70358 5.62365 8.8113 5.07617 9.07823C4.5287 9.34516 4.06725 9.76057 3.74445 10.2771C3.42165 10.7936 3.25049 11.3904 3.25049 11.9995C3.25049 12.6086 3.42165 13.2054 3.74445 13.7219C4.06725 14.2384 4.5287 14.6538 5.07617 14.9208C5.62365 15.1877 6.23512 15.2954 6.84085 15.2316C7.44659 15.1678 8.02221 14.9351 8.50207 14.56C8.52368 14.5793 8.54639 14.5973 8.57007 14.614L13.3001 17.926C13.1597 18.7088 13.3111 19.5158 13.7258 20.1944C14.1404 20.873 14.7895 21.376 15.5501 21.6082C16.3106 21.8404 17.13 21.7857 17.8529 21.4544C18.5759 21.1231 19.1523 20.5382 19.473 19.8105C19.7937 19.0828 19.8365 18.2628 19.5932 17.5057C19.3499 16.7485 18.8375 16.1069 18.1529 15.7022C17.4684 15.2975 16.6592 15.1578 15.8785 15.3096C15.0979 15.4615 14.4001 15.8942 13.9171 16.526L9.43807 13.391C9.63807 12.969 9.75007 12.498 9.75007 12C9.75007 11.502 9.63807 11.03 9.43807 10.609L13.9181 7.473C14.2537 7.91227 14.6957 8.25868 15.2025 8.47948C15.7093 8.70028 16.264 8.78817 16.8142 8.73484C17.3644 8.68151 17.8919 8.48872 18.3469 8.1747C18.8018 7.86068 19.1691 7.43581 19.4141 6.94026C19.6591 6.44472 19.7736 5.89488 19.7469 5.34274C19.7201 4.7906 19.553 4.25441 19.2612 3.78487C18.9695 3.31532 18.5629 2.92795 18.0797 2.65937C17.5965 2.3908 17.0529 2.2499 16.5001 2.25ZM14.7501 5.5C14.7501 5.03587 14.9344 4.59075 15.2626 4.26256C15.5908 3.93437 16.0359 3.75 16.5001 3.75C16.9642 3.75 17.4093 3.93437 17.7375 4.26256C18.0657 4.59075 18.2501 5.03587 18.2501 5.5C18.2501 5.96413 18.0657 6.40925 17.7375 6.73744C17.4093 7.06563 16.9642 7.25 16.5001 7.25C16.0359 7.25 15.5908 7.06563 15.2626 6.73744C14.9344 6.40925 14.7501 5.96413 14.7501 5.5ZM6.50007 10.25C6.03594 10.25 5.59082 10.4344 5.26264 10.7626C4.93445 11.0908 4.75007 11.5359 4.75007 12C4.75007 12.4641 4.93445 12.9092 5.26264 13.2374C5.59082 13.5656 6.03594 13.75 6.50007 13.75C6.9642 13.75 7.40932 13.5656 7.73751 13.2374C8.0657 12.9092 8.25007 12.4641 8.25007 12C8.25007 11.5359 8.0657 11.0908 7.73751 10.7626C7.40932 10.4344 6.9642 10.25 6.50007 10.25ZM16.5001 16.75C16.0359 16.75 15.5908 16.9344 15.2626 17.2626C14.9344 17.5908 14.7501 18.0359 14.7501 18.5C14.7501 18.9641 14.9344 19.4092 15.2626 19.7374C15.5908 20.0656 16.0359 20.25 16.5001 20.25C16.9642 20.25 17.4093 20.0656 17.7375 19.7374C18.0657 19.4092 18.2501 18.9641 18.2501 18.5C18.2501 18.0359 18.0657 17.5908 17.7375 17.2626C17.4093 16.9344 16.9642 16.75 16.5001 16.75Z" fill="#777777"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M18 12C19.49 10.54 21 8.79 21 6.5C21 5.04131 20.4205 3.64236 19.3891 2.61091C18.3576 1.57946 16.9587 1 15.5 1C13.74 1 12.5 1.5 11 3C9.5 1.5 8.26 1 6.5 1C5.04131 1 3.64236 1.57946 2.61091 2.61091C1.57946 3.64236 1 5.04131 1 6.5C1 8.8 2.5 10.55 4 12L11 19L18 12Z" stroke="#5BA600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>     
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center boxp mt-5 mb-4">
+              <div>
+                <div class="comp24">Possession Date</div>
+                <div class="span21">May, 2023</div>
+              </div>
+              <div class="vr"></div>
+              <div>
+                <div class="comp24">Build Up Area</div>
+                <div class="span21">1302 Sq.Ft</div>
+              </div>
+              <div class="vr"></div>
+              <div>
+                <div class="comp24">Sizes</div>
+                <div class="span21">1302 Sq.Ft-045</div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="span21">GSquare Builders  Private Limited</div>
+              <div class="search"><button class="searchb">Contact</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  <hr/>
+   <div class="footer container m-3">
+    <div class="d-flex justify-content-around align-items-center">
+      <div class="img">
+        <img src="./images/image 2.png" alt="logo" style="width:150px; height:60px">
+      </div>
+      <div class="d-flex flex-column align-items-baseline ftc">
+        <p>Home</p>
+        <p>Properties </p>
+        <p>Promoters </p>
+        <p>Find a Talent</p>
+      </div>
+      <div class="d-flex flex-column align-items-baseline ftc">
+        <p>About Us</p>
+        <p>Conatct Us</p >
+       <p>Privacy Policy</p> 
+        <p>Terms and Conditions</p>
+      </div>
+    </div>
+  </div>
+  <div class="conatiner f d-flex justify-content-center">
+<p class="fpl">Tirupur Homes © 2023. All Rights Reserved.</p>
+  </div>
+   </body>
+   </html>
+  
